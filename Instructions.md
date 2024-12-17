@@ -1,4 +1,3 @@
-Her er en forbedret versjon av "FPS-Boost Guide for Marvel Rivals" i Markdown-format, egnet for en GitHub `.txt`-fil:
 
 ```markdown
 # FPS-Boost Guide for Marvel Rivals

@@ -12,7 +12,7 @@ Denne guiden hjelper deg med å øke FPS og forbedre performance plus deaktiveri
 - AMD FSR
 - Render scaling: sett til 100%.
 
-Merk: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydelig FPS-økning AMD FSR metoden for deg til å droppe litt fps men er best til en competetivt advantage
+Merk: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydelig FPS-økning. AMD FSR metoden for deg til å droppe litt fps men er best til en competetivt advantage
 
 ## 2) INI-justeringer
 

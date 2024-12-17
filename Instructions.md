@@ -70,6 +70,7 @@ Merk: Disse innstillingene deaktiverer museakselerasjon og glatting, noe som kan
 For en visuell veiledning om hvordan du deaktiverer museakselerasjon i Marvel Rivals, kan du se denne videoen:
 [Deaktiver museakselerasjon i Marvel Rivals](https://www.youtube.com/watch?v=2-5MKrcgk1A)
 
+Merk: For en visuell veiledning om hvordan du deaktiverer museakselerasjon i Marvel Rivals, kan du se denne videoen personene i videon bruker et annet metoden men merk at begge metoder funker og begge er effektive, grunne til at jeg valgte å lage et egen fil er så at man for ha mer kontroll på hvor filene ligger og ikke accidentally trykke på helt feil konfig settings:
 
 ## 4) Andre tips for FPS-forbedringer
 
@@ -90,9 +91,6 @@ Merk: Noen av disse endringene kan redusere grafikkvaliteten, men vil gi deg en 
 ## Avslutning
 
 Skriptet er fullført. Husk at enkelte endringer kan påvirke grafikken negativt, men vil gi bedre FPS. Husk å lagre og sikkerhetskopiere konfigurasjonsfilene før du gjør endringer.
-
-Merk: For en visuell veiledning om hvordan du deaktiverer museakselerasjon i Marvel Rivals, kan du se denne videoen personene i videon bruker et annet metoden men merk at begge metoder funker og begge er effektive, grunne til at jeg valgte å lage et egen fil er så at man for ha mer kontroll på hvor filene ligger og ikke accidentally trykke på helt feil konfig settings:
-
 
 
 ## Denne guiden gir en strukturert tilnærming til å øke FPS i Marvel Rivals, med klare trinn og merknader for å sikre at brukeren forstår konsekvensene av hver endring.

@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# FPS-Boost Guide for Marvel Rivals - Bash Script
+
+## "FPS-Boost Guide for Marvel Rivals"
+ "Denne skriptet hjelper deg med å øke FPS og forbedre ytelsen i Marvel Rivals."
+ "Merk at enkelte innstillinger kan gjøre spillet se dårligere ut, men de vil gi deg høyere FPS."
+
+
+# 1) Endringer i in-game innstillinger
+ "Endringer i in-game innstillinger:"
+ "Endre Anti-Aliasing and Super Resolution Type til TAAU og sett Render Scaling til 50-60% for ekstra FPS."
+ "MERK: Dette vil gjøre grafikken dårligere."
+
+
+# 2) INI-justeringer
+## "INI-justeringer: Oppretter Engine.ini og Input.ini for ytelsesforbedringer."
+
+# Sett opp mappen for konfigurasjonsfilene
+CONFIG_DIR="$HOME/AppData/Local/Marvel/Saved/Config/Windows"
+
+
+# Lag Engine.ini
+## "Oppretter Engine.ini..."
+cat > "$CONFIG_DIR/Engine.ini" <<EOL
+[SystemSettings]
+r.RHICmdUseParallelAlgorithms=1
+r.RHICmdAsyncCompute=1
+EOL
+## "Engine.ini er opprettet."
+
+# Lag Input.ini for å deaktivere musjevnføring
+echo "Oppretter Input.ini for å deaktivere musjevnføring..."
+cat > "$CONFIG_DIR/Input.ini" <<EOL
+[/script/engine.inputsettings]
+bEnableMouseSmoothing=False
+bViewAccelerationEnabled=False
+bDisableMouseAcceleration=False
+RawMouseInputEnabled=1
+EOL
+echo "Input.ini er opprettet."
+
+
+
+# 3) Andre tips for FPS-forbedringer
+## "Andre tips for FPS-forbedringer og stutter-fiksing:"
+## "1. Installer spillet på en SSD for bedre laste- og lastetider."
+## "2. Deaktiver overlays fra Steam, Nvidia/AMD, Discord, etc."
+## "3. Installer de nyeste driverne fra NVIDIA eller AMD."
+## "4. Lukk nettleseren mens du spiller, spesielt hvis du har mindre enn 32 GB RAM."
+## "5. I NVIDIA Control Panel, sett Low Latency til On og V-Sync til Fast."
+## "6. Øk Shader Cache Size til 100 GB."
+## "7. Øk sidefilen hvis du har 16 GB RAM (kan bidra til å redusere stuttering og krasjer)."
+## "8. Sjekk at XMP er aktivert i BIOS for å sikre optimal RAM-hastighet."
+## "9. Start spillet på nytt hver noen timer for å unngå minnelekkasje og ytelsesforringelse over tid."
+
+
+
+# Avslutning
+echo "Skriptet er fullført. Husk at enkelte endringer kan påvirke grafikken negativt, men vil gi bedre FPS."
+echo "Husk å lagre og sikkerhetskopiere konfigurasjonsfilene før du gjør endringer."
+
+# Endre filtilgang for å kjøre skriptet
+chmod +x "$0"
+echo "Bash-skriptet er nå klart til bruk."

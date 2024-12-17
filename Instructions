@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 # FPS-Boost Guide for Marvel Rivals - Bash Script
 
@@ -13,36 +13,56 @@
  "MERK: Dette vil gjøre grafikken dårligere."
 
 
-# 2) INI-justeringer
-## "INI-justeringer: Oppretter Engine.ini og Input.ini for ytelsesforbedringer."
-
 # Sett opp mappen for konfigurasjonsfilene
 CONFIG_DIR="$HOME/AppData/Local/Marvel/Saved/Config/Windows"
 
 
-# Lag Engine.ini
-## "Oppretter Engine.ini..."
-cat > "$CONFIG_DIR/Engine.ini" <<EOL
-[SystemSettings]
+2) INI-justeringer
+1. Naviger til konfigurasjonsmappen som ligger på:
+
+   "C:\Users\DITT_NAVN\AppData\Local\Marvel\Saved\Config\Windows"
+
+2. Lag en fil kalt "Engine.ini" og lim inn en av følgende konfigurasjoner:
+
+   Standard Konfigurasjon (Klikkbar)[pastebin.com]
+   Mer ytelsesorientert Konfigurasjon (Klikkbar)[pastebin.com]
+
+3. Husk å lagre filen! (Hvis ingenting har endret seg, sørg for at filen er en .ini-fil og ikke en .txt-fil)
+
+   Dette vil gjøre spillet dårligere grafisk, men vil gi deg en god FPS-økning.
+
+MERK: Hvis systemet ditt er CPU-bundet, legg til følgende under [SystemSettings]:
 r.RHICmdUseParallelAlgorithms=1
 r.RHICmdAsyncCompute=1
-EOL
-## "Engine.ini er opprettet."
 
-# Lag Input.ini for å deaktivere musjevnføring
-echo "Oppretter Input.ini for å deaktivere musjevnføring..."
-cat > "$CONFIG_DIR/Input.ini" <<EOL
+
+Smoother aim config  deaktivere mus akselerasjon:
+
+Hvis systemet ditt er GPU-bundet :
+r.RHICmdUseParallelAlgorithms=0
+r.RHICmdAsyncCompute=0
+
+Naviger til konfigurasjonsmappen:
+
+Gå til C:\Users\DITT_NAVN\AppData\Local\Marvel\Saved\Config\Windows.
+Opprett en fil kalt "Input.ini":
+
+Lag en ny tekstfil i denne mappen og gi den navnet Input.ini.
+Lim inn følgende innhold i Input.ini:
+
+makefile
+Kopier kode
 [/script/engine.inputsettings]
 bEnableMouseSmoothing=False
 bViewAccelerationEnabled=False
 bDisableMouseAcceleration=False
 RawMouseInputEnabled=1
-EOL
-echo "Input.ini er opprettet."
+Lagre filen:
+
+Husk å lagre filen etter at du har limt inn innholdet.
 
 
-
-# 3) Andre tips for FPS-forbedringer
+# 4) Andre tips for FPS-forbedringer
 ## "Andre tips for FPS-forbedringer og stutter-fiksing:"
 ## "1. Installer spillet på en SSD for bedre laste- og lastetider."
 ## "2. Deaktiver overlays fra Steam, Nvidia/AMD, Discord, etc."
@@ -61,5 +81,4 @@ echo "Skriptet er fullført. Husk at enkelte endringer kan påvirke grafikken ne
 echo "Husk å lagre og sikkerhetskopiere konfigurasjonsfilene før du gjør endringer."
 
 # Endre filtilgang for å kjøre skriptet
-chmod +x "$0"
-echo "Bash-skriptet er nå klart til bruk."
+

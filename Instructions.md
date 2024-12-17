@@ -22,7 +22,7 @@ Merk: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydeli
 
 3. Lim inn en av følgende konfigurasjoner:
  [Standard Konfigurasjon](https://pastebin.com/DGiLxGgp)
- [Mer ytelsesorientert Konfigurasjon](https://pastebin.com/GpwmPxpc)
+ [Mer performance orientert Konfigurasjon](https://pastebin.com/GpwmPxpc)
 
 
 4. Lagre filen:

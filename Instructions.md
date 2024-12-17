@@ -95,7 +95,7 @@ Merk: Noen av disse endringene kan redusere grafikkvaliteten, men vil gi deg en 
 Skriptet er fullført. Husk at enkelte endringer kan påvirke grafikken negativt, men vil gi bedre FPS. Husk å lagre og sikkerhetskopiere konfigurasjonsfilene før du gjør endringer.
 
 
-## Denne guiden gir en strukturert tilnærming til å øke FPS i Marvel Rivals, med klare trinn og merknader for å sikre at brukeren forstår konsekvensene av hver endring.
+## Denne guiden gir en strukturert vei til å øke FPS i Marvel Rivals, med klare steps for å sikre at du brukern forstår konsekvensene av hver endring.
 
 
 

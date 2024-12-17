@@ -28,7 +28,7 @@ Merk: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydeli
 4. Lagre filen:
    - Husk å lagre filen som en `.ini`-fil, ikke en `.txt`-fil.
 
-Merk: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydelig FPS-økning.
+Merk: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en stor FPS-økning.
 ```
 Merk: Hvis systemet ditt er CPU-bundet, legg til følgende under `[SystemSettings]` i `Engine.ini`:
 

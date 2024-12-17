@@ -20,8 +20,8 @@ Merk: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydeli
    - Lag en ny tekstfil i denne mappen og gi den navnet `Engine.ini`.
 
 3. Lim inn en av følgende konfigurasjoner:
- [Standard Konfigurasjon](https://pastebin.com/DGiLxGgp)
- [Mer performance orientert Konfigurasjon](https://pastebin.com/GpwmPxpc)
+ ###[Standard Konfigurasjon](https://pastebin.com/DGiLxGgp)
+### [Mer performance orientert Konfigurasjon](https://pastebin.com/GpwmPxpc)
 
 
 4. Lagre filen:

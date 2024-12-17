@@ -66,8 +66,10 @@ r.RHICmdAsyncCompute=0
    - Husk å lagre filen etter at du har limt inn innholdet.
 
 Merk: Disse innstillingene deaktiverer museakselerasjon og glatting, noe som kan forbedre presisjonen i spillet.
+
+For en visuell veiledning om hvordan du deaktiverer museakselerasjon i Marvel Rivals, kan du se denne videoen:
 [Deaktiver museakselerasjon i Marvel Rivals](https://www.youtube.com/watch?v=2-5MKrcgk1A)
-For en visuell veiledning om hvordan du deaktiverer museakselerasjon i Marvel Rivals, kan du se denne videoen: ^^
+
 
 ## 4) Andre tips for FPS-forbedringer
 

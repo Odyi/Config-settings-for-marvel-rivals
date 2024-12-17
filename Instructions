@@ -1,7 +1,5 @@
 
 
-# FPS-Boost Guide for Marvel Rivals - Bash Script
-
 ## "FPS-Boost Guide for Marvel Rivals"
  "Denne skriptet hjelper deg med å øke FPS og forbedre ytelsen i Marvel Rivals."
  "Merk at enkelte innstillinger kan gjøre spillet se dårligere ut, men de vil gi deg høyere FPS."
@@ -36,8 +34,6 @@ r.RHICmdUseParallelAlgorithms=1
 r.RHICmdAsyncCompute=1
 
 
-Smoother aim config  deaktivere mus akselerasjon:
-
 Hvis systemet ditt er GPU-bundet :
 r.RHICmdUseParallelAlgorithms=0
 r.RHICmdAsyncCompute=0
@@ -50,8 +46,7 @@ Opprett en fil kalt "Input.ini":
 Lag en ny tekstfil i denne mappen og gi den navnet Input.ini.
 Lim inn følgende innhold i Input.ini:
 
-makefile
-Kopier kode
+Kopier kode:
 [/script/engine.inputsettings]
 bEnableMouseSmoothing=False
 bViewAccelerationEnabled=False

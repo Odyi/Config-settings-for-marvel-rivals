@@ -21,8 +21,9 @@ Denne guiden hjelper deg med å øke FPS og forbedre ytelsen i Marvel Rivals. V�
    - Lag en ny tekstfil i denne mappen og gi den navnet `Engine.ini`.
 
 3. **Lim inn en av følgende konfigurasjoner**:
-   - **Standard Konfigurasjon**: https://pastebin.com/DGiLxGgp
-   - **Mer performance orientert Konfigurasjon**:  https://pastebin.com/GpwmPxpc
+ [Standard Konfigurasjon](https://pastebin.com/DGiLxGgp)
+ [Mer ytelsesorientert Konfigurasjon](https://pastebin.com/GpwmPxpc)
+
 
 4. **Lagre filen**:
    - Husk å lagre filen som en `.ini`-fil, ikke en `.txt`-fil.

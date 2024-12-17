@@ -8,7 +8,7 @@ Denne guiden hjelper deg med å øke FPS og forbedre performance plus deaktiveri
 
 - Anti-Aliasing og Super Resolution Type: Sett til `TAAU`.
 - Render Scaling: Sett til 50-60%.
- ## Eller
+ ### Eller
 - AMD FSR
 - Render scaling: sett til 100%.
 

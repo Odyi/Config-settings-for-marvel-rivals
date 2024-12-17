@@ -1,6 +1,6 @@
 # FPS-Boost Guide for Marvel Rivals
 
-Denne guiden hjelper deg med å øke FPS og forbedre ytelsen i Marvel Rivals. Vær oppmerksom på at enkelte innstillinger kan redusere grafikkvaliteten, men de vil gi deg høyere FPS.
+Denne guiden hjelper deg med å øke FPS og forbedre performance plus deaktivering av mus akselerasjon i Marvel Rivals. Vær oppmerksom på at enkelte innstillinger kan redusere grafikkvaliteten, men de vil gi deg høyere FPS.
 
 ```markdown
 

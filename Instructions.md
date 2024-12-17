@@ -6,8 +6,8 @@ Denne guiden hjelper deg med å øke FPS og forbedre ytelsen i Marvel Rivals. V�
 
 ## 1) Endringer i in-game innstillinger
 
-- **Anti-Aliasing og Super Resolution Type**: Sett til `TAAU`.
-- **Render Scaling**: Sett til 50-60%.
+- Anti-Aliasing og Super Resolution Type**: Sett til `TAAU`.
+- Render Scaling: Sett til 50-60%.
 
 **Merk**: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydelig FPS-økning.
 

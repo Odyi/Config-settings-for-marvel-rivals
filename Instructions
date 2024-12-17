@@ -1,79 +1,98 @@
+Her er en forbedret versjon av "FPS-Boost Guide for Marvel Rivals" i Markdown-format, egnet for en GitHub `.txt`-fil:
 
+```markdown
+# FPS-Boost Guide for Marvel Rivals
 
-## "FPS-Boost Guide for Marvel Rivals"
- "Denne skriptet hjelper deg med å øke FPS og forbedre ytelsen i Marvel Rivals."
- "Merk at enkelte innstillinger kan gjøre spillet se dårligere ut, men de vil gi deg høyere FPS."
+Denne guiden hjelper deg med å øke FPS og forbedre ytelsen i Marvel Rivals. Vær oppmerksom på at enkelte innstillinger kan redusere grafikkvaliteten, men de vil gi deg høyere FPS.
 
+## 1) Endringer i in-game innstillinger
 
-# 1) Endringer i in-game innstillinger
- "Endringer i in-game innstillinger:"
- "Endre Anti-Aliasing and Super Resolution Type til TAAU og sett Render Scaling til 50-60% for ekstra FPS."
- "MERK: Dette vil gjøre grafikken dårligere."
+- **Anti-Aliasing og Super Resolution Type**: Sett til `TAAU`.
+- **Render Scaling**: Sett til 50-60%.
 
+**Merk**: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydelig FPS-økning.
 
-# Sett opp mappen for konfigurasjonsfilene
-CONFIG_DIR="$HOME/AppData/Local/Marvel/Saved/Config/Windows"
+## 2) INI-justeringer
 
+1. **Naviger til konfigurasjonsmappen**:
+   - Gå til `C:\Users\DITT_NAVN\AppData\Local\Marvel\Saved\Config\Windows`.
 
-2) INI-justeringer
-1. Naviger til konfigurasjonsmappen som ligger på:
+2. **Opprett en fil kalt "Engine.ini"**:
+   - Lag en ny tekstfil i denne mappen og gi den navnet `Engine.ini`.
 
-   "C:\Users\DITT_NAVN\AppData\Local\Marvel\Saved\Config\Windows"
+3. **Lim inn en av følgende konfigurasjoner**:
+   - **Standard Konfigurasjon**: https://pastebin.com/DGiLxGgp
+   - **Mer performance orientert Konfigurasjon**:  https://pastebin.com/GpwmPxpc
 
-2. Lag en fil kalt "Engine.ini" og lim inn en av følgende konfigurasjoner:
+4. **Lagre filen**:
+   - Husk å lagre filen som en `.ini`-fil, ikke en `.txt`-fil.
 
-   Standard Konfigurasjon (Klikkbar)[pastebin.com]
-   Mer ytelsesorientert Konfigurasjon (Klikkbar)[pastebin.com]
+**Merk**: Disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydelig FPS-økning.
 
-3. Husk å lagre filen! (Hvis ingenting har endret seg, sørg for at filen er en .ini-fil og ikke en .txt-fil)
+**Merk**: Hvis systemet ditt er CPU-bundet, legg til følgende under `[SystemSettings]` i `Engine.ini`:
 
-   Dette vil gjøre spillet dårligere grafisk, men vil gi deg en god FPS-økning.
-
-MERK: Hvis systemet ditt er CPU-bundet, legg til følgende under [SystemSettings]:
+```ini
 r.RHICmdUseParallelAlgorithms=1
 r.RHICmdAsyncCompute=1
+```
 
+Hvis systemet ditt er GPU-bundet, legg til følgende i `Engine.ini`:
 
-Hvis systemet ditt er GPU-bundet :
+```ini
 r.RHICmdUseParallelAlgorithms=0
 r.RHICmdAsyncCompute=0
+```
 
-Naviger til konfigurasjonsmappen:
+## 3) Deaktiver museakselerasjon
 
-Gå til C:\Users\DITT_NAVN\AppData\Local\Marvel\Saved\Config\Windows.
-Opprett en fil kalt "Input.ini":
+1. **Naviger til konfigurasjonsmappen**:
+   - Gå til `C:\Users\DITT_NAVN\AppData\Local\Marvel\Saved\Config\Windows`.
 
-Lag en ny tekstfil i denne mappen og gi den navnet Input.ini.
-Lim inn følgende innhold i Input.ini:
+2. **Opprett en fil kalt "Input.ini"**:
+   - Lag en ny tekstfil i denne mappen og gi den navnet `Input.ini`.
 
-Kopier kode:
-[/script/engine.inputsettings]
-bEnableMouseSmoothing=False
-bViewAccelerationEnabled=False
-bDisableMouseAcceleration=False
-RawMouseInputEnabled=1
-Lagre filen:
+3. **Lim inn følgende innhold i `Input.ini`**:
 
-Husk å lagre filen etter at du har limt inn innholdet.
+   ```ini
+   [/script/engine.inputsettings]
+   bEnableMouseSmoothing=False
+   bViewAccelerationEnabled=False
+   bDisableMouseAcceleration=False
+   RawMouseInputEnabled=1
+   ```
 
+4. **Lagre filen**:
+   - Husk å lagre filen etter at du har limt inn innholdet.
 
-# 4) Andre tips for FPS-forbedringer
-## "Andre tips for FPS-forbedringer og stutter-fiksing:"
-## "1. Installer spillet på en SSD for bedre laste- og lastetider."
-## "2. Deaktiver overlays fra Steam, Nvidia/AMD, Discord, etc."
-## "3. Installer de nyeste driverne fra NVIDIA eller AMD."
-## "4. Lukk nettleseren mens du spiller, spesielt hvis du har mindre enn 32 GB RAM."
-## "5. I NVIDIA Control Panel, sett Low Latency til On og V-Sync til Fast."
-## "6. Øk Shader Cache Size til 100 GB."
-## "7. Øk sidefilen hvis du har 16 GB RAM (kan bidra til å redusere stuttering og krasjer)."
-## "8. Sjekk at XMP er aktivert i BIOS for å sikre optimal RAM-hastighet."
-## "9. Start spillet på nytt hver noen timer for å unngå minnelekkasje og ytelsesforringelse over tid."
+**Merk**: Disse innstillingene deaktiverer museakselerasjon og glatting, noe som kan forbedre presisjonen i spillet.
 
+## 4) Andre tips for FPS-forbedringer
 
+- **Installer spillet på en SSD**: Dette kan forbedre laste- og lastetider betydelig.
+- **Deaktiver overlays**: Skru av overlays fra Steam, Nvidia/AMD, Discord, etc.
+- **Oppdater drivere**: Installer de nyeste driverne fra NVIDIA eller AMD.
+- **Lukk unødvendige programmer**: Lukk nettleseren og andre programmer mens du spiller, spesielt hvis du har mindre enn 32 GB RAM.
+- **Juster NVIDIA Control Panel-innstillinger**:
+  - Sett **Low Latency** til `On`.
+  - Sett **V-Sync** til `Fast`.
+  - Øk **Shader Cache Size** til 100 GB.
+- **Øk sidefilen**: Hvis du har 16 GB RAM, kan du øke sidefilen for å redusere stuttering og krasjer.
+- **Sjekk XMP i BIOS**: Sørg for at XMP er aktivert i BIOS for å sikre optimal RAM-hastighet.
+- **Start spillet på nytt**: Start spillet på nytt hver noen timer for å unngå minnelekkasje og ytelsesforringelse over tid.
 
-# Avslutning
-echo "Skriptet er fullført. Husk at enkelte endringer kan påvirke grafikken negativt, men vil gi bedre FPS."
-echo "Husk å lagre og sikkerhetskopiere konfigurasjonsfilene før du gjør endringer."
+**Merk**: Noen av disse endringene kan redusere grafikkvaliteten, men vil gi deg en betydelig FPS-økning.
 
-# Endre filtilgang for å kjøre skriptet
+## Avslutning
 
+Skriptet er fullført. Husk at enkelte endringer kan påvirke grafikken negativt, men vil gi bedre FPS. Husk å lagre og sikkerhetskopiere konfigurasjonsfilene før du gjør endringer.
+
+**Merk**: For en visuell veiledning om hvordan du deaktiverer museakselerasjon i Marvel Rivals, kan du se denne videoen:
+
+[Deaktiver museakselerasjon i Marvel Rivals](https://www.youtube.com/watch?v=2-5MKrcgk1A)
+```
+
+Denne guiden gir en strukturert tilnærming til å øke FPS i Marvel Rivals, med klare trinn og merknader for å sikre at brukeren forstår konsekvensene av hver endring.
+
+For en visuell veiledning om hvordan du deaktiverer museakselerasjon i Marvel Rivals, kan du se denne videoen: 
+
+ 
